@@ -1,0 +1,17 @@
+import java.util.Date;
+
+
+public class Stage4 {
+
+	/**
+	 * @param args
+	 */
+	@SuppressWarnings("deprecation")
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Date date = new Date("1997-06-02T00:45:00.000Z");
+		Date newdate = new Date(date.getTime() + 386519965);
+		System.out.print(date);
+	}
+
+}

@@ -1,0 +1,20 @@
+import java.util.Calendar;
+import java.util.Date;
+
+
+public class Stage4 {
+
+	/**
+	 * @param args
+	 */
+	@SuppressWarnings("deprecation")
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calendar now = Calendar.getInstance();
+		now.set(1997, 06,02, 00,45,00);
+		now.add(Calendar.MILLISECOND, 386519965);
+		
+		System.out.print(now.getTime());
+	}
+
+}
