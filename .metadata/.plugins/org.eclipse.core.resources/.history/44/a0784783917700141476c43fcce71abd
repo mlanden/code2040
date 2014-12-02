@@ -11,9 +11,8 @@ public class Stage4 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Calendar now = Calendar.getInstance();
-		now.set(2020,9,23,11,14,00 );
-		System.out.println(now.getTime());
-		now.add(Calendar.SECOND, 307799324);
+		now.set(2039,11,25,18,23,00 );
+		now.add(Calendar.MILLISECOND, 31803037);
 		System.out.print(now.getTime());
 	}
 
